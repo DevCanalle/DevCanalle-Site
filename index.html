@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Canalle</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- Navbar com Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">Dev Canalle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#header">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="header" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1>Olá Mundo! Sou Eric Canalle Bernardes</h1>
+        <p>
+          Acadêmico do curso de Engenharia de Software. Apaixonado por back-end e desenvolvimento mobile, especializando em Swift e soluções mobile.
+        </p>
+        <a href="#sobre" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="assets/eric.png" alt="Eric" class="img-fluid mb-4" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Quem sou eu?</h2>
+        <p>Aqui estão as redes para acompanhar meus projetos e meu trabalho.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/eric-canalle/"><img src="assets/linkedin.png" alt="Linkedin" class="img-fluid"/></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/ericanalle"><img src="assets/github.png" alt="Github" class="img-fluid"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Analista de Sistemas com foco em Back-end e Mobile - Swift</h3>
+        <p>
+          Olá, eu sou Eric. Um analista de sistema e futuro desenvolvedor apaixonado por tecnologia e soluções mobile.
+          Com mais de 3 anos de experiência na área de Suporte. Estou migrando de área de atuação e escolhi o mundo dos
+          dispositivos pequeninos com a linguagem Swift pois amo a Apple.
+        </p>
+        <p>Amo a praticidade que o Mobile trouxe para o mundo. Isso é o <b>FUTURO!</b></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="container py-5 bg-light">
+    <h2 class="text-center mb-5">Minhas habilidades</h2>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <img src="assets/notebook.png" alt="Desenvolvimento Back-end" class="img-fluid mb-3" />
+        <h3>Desenvolvimento Back-end</h3>
+        <p>Utilizando as mais modernas linguagens, realizando a melhoria nos processos.</p>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/apple.png" alt="Desenvolvimento Mobile" class="img-fluid mb-3" />
+        <h3>Desenvolvimento Mobile</h3>
+        <p>Desenvolvimento voltado ao ecossistema da Apple, do mobile até o desktop.</p>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/swift.png" alt="Swift" class="img-fluid mb-3" />
+        <h3>Swift</h3>
+        <p>Conhecimentos em MVC, MVVM, Objective-C para o melhor posicionamento em projetos Swift.</p>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/git.png" alt="Gerenciamento de versões" class="img-fluid mb-3" />
+        <h3>Gerenciamento de versões</h3>
+        <p>Experiência com Git para controle de projetos. Vivência com Github e Gitlab.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="container py-5">
+    <h2 class="text-center mb-5">Projetos em Destaque</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/todo.jpg" class="card-img-top" alt="Todo List">
+          <div class="card-body">
+            <h5 class="card-title">Todo List</h5>
+            <p class="card-text">Utilizando ECMAScript, Babel e Node para um sistema de Todo List pessoal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/viacep.jpg" class="card-img-top" alt="Consulta CEP">
+          <div class="card-body">
+            <h5 class="card-title">Consulta CEP</h5>
+            <p class="card-text">Interface de consulta de CEP conectada à API do Via CEP usando JavaScript e Ajax.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="assets/livrariaonline.jpg" class="card-img-top" alt="Livraria On-Demand">
+          <div class="card-body">
+            <h5 class="card-title">Livraria On-Demand</h5>
+            <p class="card-text">Demonstração de livros com Vue, mostrando detalhes sobre autor e publicação.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <footer id="footer" class="container py-5 bg-light">
+    <h2 class="text-center mb-4">Vamos conversar?</h2>
+    <form id="contact-form" class="mb-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensagem:</label>
+        <textarea class="form-control" id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Enviar</button>
+    </form>
+    <div class="text-center">
+      <p>devcanalle.ti@gmail.com</p>
+      <p>47 997103886</p>
+    </div>
+    <div class="text-center">
+      <a href="https://www.linkedin.com/in/eric-canalle/" class="me-3"><img src="assets/linkedin.png" alt="Linkedin" class="img-fluid"/></a>
+      <a href="https://github.com/ericanalle"><img src="assets/github.png" alt="Github" class="img-fluid"/></a>
+    </div>
+    <p class="text-center mt-4">© 2024 Eric Canalle Bernardes. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
